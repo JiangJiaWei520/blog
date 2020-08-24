@@ -50,7 +50,7 @@ email: jiangjiawei520172@gmail.com
 # ---------------- #
 navs:
   -
-    href: 
+    href:
     label: 首页
 
   -
@@ -93,7 +93,7 @@ paginate: 10
 lsi: false
 quiet: false
 excerpt_separator: "\n\n"
-permalink: /:year/:month/:day/:title/
+permalink: year/:month/:day/:title/
 plugins:
     - jekyll-github-metadata
     - rouge
