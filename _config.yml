@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://jiangjiawei520.github.io/blog
+url: https://jiangjiawei520.github.io/blog/
 date_format: "ordinal"
 title: 我的博客
 subtitle: "蒋家威的个人博客"
