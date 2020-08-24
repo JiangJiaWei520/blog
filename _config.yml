@@ -93,7 +93,7 @@ paginate: 10
 lsi: false
 quiet: false
 excerpt_separator: "\n\n"
-permalink: :year/:month/:day/:title/
+permalink: ///:year/:month/:day/:title/
 plugins:
     - jekyll-github-metadata
     - rouge
@@ -106,7 +106,7 @@ plugins:
 collections:
     wiki:
         output: true
-        permalink: wiki/:path/
+        permalink: /wiki/:path/
 
 # ---------------- #
 #      Comments    #
