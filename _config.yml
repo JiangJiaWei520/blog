@@ -50,11 +50,11 @@ email: jiangjiawei520172@gmail.com
 # ---------------- #
 navs:
   -
-    href:
+    href: /
     label: 首页
 
   -
-    href: categories/
+    href: /categories/
     label: 分类
 
 #   -
@@ -66,15 +66,15 @@ navs:
 #     label: 开源
 
   -
-    href: wiki/
+    href: /wiki/
     label: 维基
 
   -
-    href: links/
+    href: /links/
     label: 链接
 
   -
-    href: about/
+    href: /about/
     label: 关于
 
 # ---------------- #
