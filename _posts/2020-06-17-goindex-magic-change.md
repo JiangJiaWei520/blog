@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Goindex的魔改版本
-categories: 技术分析
+categories: 技术分享
 description: Goindex的魔改版本
 keywords: 工具, goindex，Google Drive
 ---
