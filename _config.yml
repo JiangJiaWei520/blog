@@ -128,12 +128,24 @@ gitment:
     oauth:
         client_id: 0fcee085086d26c876ed
         client_secret: b2e865c195543d6faea7ba3ab1367b5022953264
+        enable: true
+        mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
+        count: true # Show comments count in post meta area
+        lazy: true # Comments lazy loading with a button
+        cleanly: false # Hide 'Powered by ...' on footer, and more
+        language: zh-Hans
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: JiangJiaWei520
     repo: blog
     clientID: 0fcee085086d26c876ed
     clientSecret: b2e865c195543d6faea7ba3ab1367b5022953264
+    enable: true
+    mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
+    count: true # Show comments count in post meta area
+    lazy: true # Comments lazy loading with a button
+    cleanly: false # Hide 'Powered by ...' on footer, and more
+    language: zh-Hans
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
