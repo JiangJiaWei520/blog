@@ -108,6 +108,9 @@ collections:
     wiki:
         output: true
         permalink: /wiki/:path/
+    archives:
+      output: true
+      permalink: /archives/:path/
 
 # ---------------- #
 #      Comments    #
