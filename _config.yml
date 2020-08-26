@@ -118,9 +118,9 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: 
+    username: disqus_TBu8nP0MV0
 # https://imsun.net/posts/gitment-introduction/
-# Settings Developer settings blog
+# Settings Developer settings blog 注册新的OAuth应用程序
 gitment:
     owner: blog
     repo: blog-comments
