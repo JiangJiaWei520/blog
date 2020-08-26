@@ -59,7 +59,7 @@ navs:
     label: 分类
 
    -
-    href: archives
+    href: /archives/
     label: 归档
 
    -
