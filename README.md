@@ -301,9 +301,50 @@ git checkout commit_id #找到之前提交备注的hasn值
 
 
 
-### 四、实例
+### 四、笔记
 
-​	
+​	**1.使用自定义域名相关**
+
+​			A、使用网站提供的自定义域名
+
+​			B、自定义域名
+
+​				1)、使用cf(https://dash.cloudflare.com/)解析dns
+
+​				2)、要创建A记录和cname，请将您的顶点域指向GitHub Pages的IP地址之一。
+
+|   A   |   185.199.109.153   |
+| :---: | :-----------------: |
+|   A   |   185.199.109.153   |
+|   A   |   185.199.110.153   |
+|   A   |   185.199.111.153   |
+| CNAME | username..github.io |
+
+​	**2.设置评论方式**
+
+​			gitalk：
+
+​					url:https://github.com/gitalk/gitalk#install
+
+​					注册新的OAuth应用程序:Settings > Developer  settings > OAuth Apps 
+
+```markdown
+# https://github.com/gitalk/gitalk#install
+gitalk:
+	# https://github.com/user_owner/user_repo.git
+    owner: user_owner 
+    repo: user_repo
+    clientID: user_clientID
+    clientSecret: user_clientSecret
+    enable: true
+    mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
+    count: true # Show comments count in post meta area
+    lazy: true # Comments lazy loading with a button
+    cleanly: false # Hide 'Powered by ...' on footer, and more
+    language: zh-Hans
+```
+
+
 
 ## 致谢
 
