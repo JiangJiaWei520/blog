@@ -25,7 +25,7 @@ components:
     # 不蒜子访问统计
     busuanzi:
         enabled: true
-        start_date: 2020-05-03
+        start_date: 2020-08-26
 # 压缩页面内容
 compress_html:
   clippings: all
@@ -119,7 +119,7 @@ comments_provider: gitalk
 # 注册disqus用户名username
 # https://disqus.com
 disqus:
-    username: disqus_TBu8nP0MV0
+    username: 
 # Settings Developer settings blog 注册新的OAuth应用程序
 # https://imsun.net/posts/gitment-introduction/
 gitment:
@@ -135,7 +135,7 @@ gitalk:
     clientID: 0fcee085086d26c876ed
     clientSecret: 8b5e192a9b425905dbc1b2ad4b2744f1e70cdc67
 # 在使用其它评论组件时可点击显示 Disqus
-lazy_load_disqus : true
+lazy_load_disqus : false
 
 # ---------------- #
 #      Search      #
