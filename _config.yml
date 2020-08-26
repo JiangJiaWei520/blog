@@ -116,11 +116,12 @@ collections:
 comments_provider: gitalk
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
-# https://disqus.com 注册disqus用户名username
+# 注册disqus用户名username
+# https://disqus.com
 disqus:
     username: disqus_TBu8nP0MV0
-# https://imsun.net/posts/gitment-introduction/
 # Settings Developer settings blog 注册新的OAuth应用程序
+# https://imsun.net/posts/gitment-introduction/
 gitment:
     owner: blog
     repo: blog-comments
