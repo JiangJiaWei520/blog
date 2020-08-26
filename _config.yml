@@ -2,7 +2,8 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://jiangjiawei520.github.io/blog
+#url: https://jiangjiawei520.github.io/blog
+url: http://blog.jiang7zzz.xyz
 date_format: "ordinal"
 title: 蒋家威的博客
 subtitle: "天空中的鱼"
