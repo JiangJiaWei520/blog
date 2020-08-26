@@ -123,7 +123,7 @@ disqus:
 # Settings Developer settings blog 注册新的OAuth应用程序
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: blog
+    owner: JiangJiaWei520
     repo: blog
     oauth:
         client_id: 0fcee085086d26c876ed
@@ -136,7 +136,7 @@ gitment:
         language: zh-Hans
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: blog
+    owner: JiangJiaWei520
     repo: blog
     clientID: 0fcee085086d26c876ed
     clientSecret: b2e865c195543d6faea7ba3ab1367b5022953264
