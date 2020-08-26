@@ -6,8 +6,6 @@ description: some word here
 keywords: AutoRclone, Google Drive,教程
 ---
 
-![img](http://jiangjiawei.epizy.com/wp-content/uploads/2020/06/computer-2786081_640.jpg)
-
 来源：[panoan.top](https://panoan.top/)
 
 ## AutoRclone可以干什么？
