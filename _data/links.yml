@@ -1,3 +1,19 @@
 - name: 码志
   url: http://mazhuang.org
   src: life
+  
+- name: 蒋家威的导航
+  url: https://jiangjiawei520.github.io/daohang/
+  src: life
+  
+- name: 蒋家威的留言板
+  url: http://mypigeon.5li.cc/
+  src: life
+  
+- name: 蒋家威的Cloud
+  url: https://cloud.jiangjiawei.workers.dev/0:/
+  src: life
+  
+- name: 蒋家威的OneIndex
+  url: http://www.jiangjiawei.5li.cc/
+  src: life
