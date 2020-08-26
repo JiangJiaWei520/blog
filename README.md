@@ -307,12 +307,13 @@ git checkout commit_id #找到之前提交备注的hasn值
 
 ## 致谢
 
+转载或参考：
+
 本博客外观基于 [mzlogin](https://github.com/mzlogin/mzlogin.github.io) 修改，感谢！
 
-
-[1]: https://github.com/mzlogin/chinese-copywriting-guidelines
-[2]: https://help.github.com/articles/setting-up-your-pages-site-locally-with-jekyll/
-[3]: https://github.com/mzlogin/mzlogin.github.io/issues/2
-[4]:https://www.cnblogs.com/xulei1992/p/5650329.html
-[5]: https://www.jianshu.com/p/9f198d5779e6
+https://github.com/mzlogin/chinese-copywriting-guidelines
+https://help.github.com/articles/setting-up-your-pages-site-locally-with-jekyll/
+https://github.com/mzlogin/mzlogin.github.io/issues/2
+https://www.cnblogs.com/xulei1992/p/5650329.html
+https://www.jianshu.com/p/9f198d5779e6
 
