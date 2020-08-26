@@ -127,13 +127,13 @@ gitment:
     repo: blog
     oauth:
         client_id: 0fcee085086d26c876ed
-        client_secret: 8b5e192a9b425905dbc1b2ad4b2744f1e70cdc67
+        client_secret: b2e865c195543d6faea7ba3ab1367b5022953264
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: JiangJiaWei520
     repo: blog
     clientID: 0fcee085086d26c876ed
-    clientSecret: 8b5e192a9b425905dbc1b2ad4b2744f1e70cdc67
+    clientSecret: b2e865c195543d6faea7ba3ab1367b5022953264
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
