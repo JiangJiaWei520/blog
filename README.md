@@ -55,12 +55,12 @@ Fork 本项目之后，还需要做一些事情才能让你的页面「正确」
 
 ### 一、Jekyll
 
-​	**1.Jekyll是什么？**
+#### 	**1.Jekyll是什么？**
 
 ​			Jekyll就是将纯文本转化为静态博客网站，不需要数据库支持，也没有评论功能，想要评论功能的话可以借助第三方的评论服务。
  Jekyll + Github Pages可以让你更加专注于博客内容，而不是如何搭建一个博客平台。
 
-​	**2.目录结构**
+#### 	**2.目录结构**
 
 ```ruby
 .
@@ -104,7 +104,7 @@ index.html：项目的首页
 
 ​		GitHub Pages 是一个静态网站托管服务，直接从github仓库托管你个人、公司或者项目页面 ，并且不需要你写任何后端语言来支持。
 
-​	**1.markdown文件的头信息**
+#### 	**1.markdown文件的头信息**
 
 ​		如下所示：
 
@@ -140,9 +140,9 @@ keywords: keyword1, keyword2
 
 ​		**步骤：**
 
-​				**1.注册Github**
+#### 				**1.注册Github**
 
-​				**2.域名【可选】**
+#### 				**2.域名【可选】**
 
 ​						1）去买域名
 
@@ -152,7 +152,7 @@ keywords: keyword1, keyword2
 			http://{username}.github.io //用你的Github用户名替换网址中的{username}`
 ```
 
-​			**3.安装Git环境**
+#### 			**3.安装Git环境**
 
 ​					在打开的命令行窗口（Shell）内执行以下命令，设置你的git用户名和邮箱：
 
@@ -162,7 +162,7 @@ $ git config --global user.name "{username}"          // 用你的用户名替�
 $ git config --global user.email "{name@site.com}"    // 用你的邮箱替换{name@site.com}
 ```
 
-​		 **4.SSH配置**
+#### 		 **4.SSH配置**
 
 在刚才打开的Shell内执行，配置SSH：
 
@@ -189,7 +189,7 @@ $ ssh-keygen -t rsa -C"{name@site.com}"    // 用你的邮箱替换{name@site.co
 
 
 
-**5.创建项目**
+#### **5.创建项目**
 
 1）Fork（Git系统的创建分支，简单来说是把当前仓库复制一份到你的仓库，你可以进行修改，因为你的仓库是原来仓库的新的分支）已有的开源博客仓库，在巨人的肩膀上进行符合自我的创作（找个大神的作品自己改改）。
 
@@ -221,7 +221,7 @@ $ ssh-keygen -t rsa -C"{name@site.com}"    // 用你的邮箱替换{name@site.co
 
 　　自建比较慢，以后讨论。
 
-**6.写东西**
+#### **6.写东西**
 
 　　1）克隆
 
@@ -273,7 +273,7 @@ $ git push origin master
 
 　　报错的情况会单独讨论。
 
-​	**7.git发布相关**
+#### 	**7.git发布相关**
 
 ```php+HTML
 A、下载相关
@@ -303,7 +303,7 @@ git checkout commit_id #找到之前提交备注的hasn值
 
 ### 四、笔记
 
-​	**1.使用自定义域名相关**
+##### 	**1.使用自定义域名相关**
 
 ​			A、使用网站提供的自定义域名
 
@@ -320,7 +320,7 @@ git checkout commit_id #找到之前提交备注的hasn值
 |   A   |   185.199.111.153   |
 | CNAME | username..github.io |
 
-​	**2.设置评论方式**
+##### 	**2.设置评论方式**
 
 ​			gitalk：
 
@@ -344,7 +344,47 @@ gitalk:
     language: zh-Hans
 ```
 
+##### 	**3.git错误笔记**
 
+​	**Git 冲突：**
+
+```php+HTML
+error: Your local changes to the following files would be overwritten by merge:
+ xxx.xml
+ xxx.yml
+```
+​		**问题及解决方式：**
+
+​				问题：在git服务器上直接修改文件，导致从git pull最新代码会提示这样的问题。
+
+​				解决方式:
+
+**方法1：**如果你想保留刚才本地修改的代码，并把git服务器上的代码pull到本地（本地刚才修改的代码将会被暂时封存起来）
+
+```php+HTML
+git stash
+git pull origin master
+git stash pop
+```
+
+如此一来，服务器上的代码更新到了本地，而且你本地修改的代码也没有被覆盖，之后使用add，commit，push 命令即可更新本地代码到服务器了。
+
+**git stash: **备份当前的工作区的内容，从最近的一次提交中读取相关内容，让工作区保证和上次提交的内容一致。同时，将当前的工作区内容保存到Git栈中。
+**git stash pop: **从Git栈中读取最近一次保存的内容，恢复工作区的相关内容。由于可能存在多个Stash的内容，所以用栈来管理，pop会从最近的一个stash中读取内容并恢复。
+**git stash list: **显示Git栈内的所有备份，可以利用这个列表来决定从那个地方恢复。
+
+**git stash clear: **清空Git栈。此时使用gitg等图形化工具会发现，原来stash的哪些节点都消失了。
+
+**方法2：**如果你想完全地覆盖本地的代码，只保留服务器端代码，则直接回退到上一个版本，再进行pull
+
+```
+git reset --hard
+git pull origin master
+```
+
+![img](https://images2018.cnblogs.com/blog/740218/201808/740218-20180817112317902-414725145.png)
+
+ 
 
 ## 致谢
 
