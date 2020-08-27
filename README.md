@@ -149,7 +149,7 @@ keywords: keyword1, keyword2
 　　				2）用Github pages提供的免费域名
 
 ```php+HTML
-			http://{username}.github.io //用你的Github用户名替换网址中的{username}`
+http://{username}.github.io //用你的Github用户名替换网址中的{username}
 ```
 
 #### 			**3.安装Git环境**
