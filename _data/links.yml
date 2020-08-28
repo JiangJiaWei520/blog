@@ -3,7 +3,8 @@
   src: life
 
 - name: 蒋家威的笔记
-  url: https://jiangjiawei520.github.io/hexo_notes.github.io/
+  #url: https://jiangjiawei520.github.io/hexo_notes.github.io/
+  url: http://notes.jiangjiawei.gq/
   src: life
   
 - name: 蒋家威的留言板
