@@ -386,6 +386,34 @@ git pull origin master
 
  
 
+###  五、Jekyll Themes / GitHub Pages 博客使用记录
+
+#### 1、新增菜单：
+
+- 在根目录下_config.yml中的navs下插入
+
+  ```
+    -
+      href: /cs/
+      label: 测试
+  ```
+
+- 在根目录下pages页面中添加cs.md即可
+
+  ```
+  ---
+  layout: page
+  title: 测试页面
+  description: 测试
+  keywords: 测试
+  comments: false
+  menu: 测试
+  permalink: /cs/
+  ---
+  ```
+
+  
+
 ## 致谢
 
 转载或参考：
