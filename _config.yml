@@ -42,7 +42,8 @@ highlight_theme: github
 author: Jiang Jiawei
 organization: 
 organization_url: 
-github_username: jiangjiawei520
+# 填写后可以连接到个人github
+#github_username: jiangjiawei520
 location: GuangZhou, China
 email: jiangjiawei520172@gmail.com
 
