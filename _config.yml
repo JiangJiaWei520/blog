@@ -76,6 +76,10 @@ navs:
     label: 链接
 
   -
+    href: /cs/
+    label: 测试
+
+  -
     href: /about/
     label: 关于
 
