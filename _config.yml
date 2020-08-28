@@ -2,8 +2,8 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://jiangjiawei520.github.io/person_cs
-# url: http://blog.jiang7zzz.xyz
+# url: https://jiangjiawei520.github.io/person_cs
+url: http://blog.jiang7zzz.xyz
 date_format: "ordinal"
 title: 蒋家威的博客
 subtitle: "天空中的鱼"
@@ -12,7 +12,7 @@ keywords: keywords
 timezone: Asia/GuangZhou
 encoding: "utf-8"
 side_bar_repo_limit: 5
-repository: JiangJiaWei520/person_cs
+repository: JiangJiaWei520/blog
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
