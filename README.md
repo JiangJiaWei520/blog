@@ -1,5 +1,7 @@
 # 我的博客
 
+本博客是使用Jekyll Themes + GitHub Pages 搭建【暂时未使用，切换使用hexo搭建博客】
+
 我的个人博客：<https://blog.jiang7zzz.xyz>。
 
 ## 概览

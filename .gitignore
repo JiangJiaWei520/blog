@@ -7,8 +7,4 @@ _site/
 Gemfile.lock
 .vscode/
 .jekyll-metadata
-_data
-_drafts
-_posts
-_wiki
-pages
+.idea
